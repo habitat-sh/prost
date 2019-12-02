@@ -538,7 +538,9 @@ impl Config {
 
         let mut buf = Vec::new();
         fs::File::open(descriptor_set)?.read_to_end(&mut buf)?;
-        let descriptor_set = FileDescriptorSet::decode(&buf)?;
+        use bytes::Bytes;
+        let buf_obj = Bytes::from(buf);
+        let descriptor_set = FileDescriptorSet::decode(buf_obj)?;
 
         let modules = self.generate(descriptor_set.file)?;
         for (module, content) in modules {
