@@ -1,3 +1,9 @@
+## Archived 3rd-Party Fork
+
+This repository is an archived copy of a 3rd-party open-source project that Progress Chef contributed to.
+It was archived as part of the [Repository Standardization Initiative](https://github.com/chef-boneyard/oss-repo-standardization-2025).
+No further contributions are anticipated to be made.
+
 [![Build Status](https://travis-ci.org/danburkert/prost.svg?branch=master)](https://travis-ci.org/danburkert/prost)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/24rpba3x2vqe8lje/branch/master?svg=true)](https://ci.appveyor.com/project/danburkert/prost/branch/master)
 [![Documentation](https://docs.rs/prost/badge.svg)](https://docs.rs/prost/)
